@@ -18,3 +18,27 @@
 /phpunit.xml
 .phpunit.result.cache
 ###< phpunit/phpunit ###
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/front_consumo_api/./node_modules
+/front_consumo_api/./.pnp
+/front_consumo_api/.pnp.js
+
+# testing
+/front_consumo_api/./coverage
+
+# production
+/front_consumo_api/./build
+
+# misc
+/front_consumo_api/.DS_Store
+/front_consumo_api/.env.local
+/front_consumo_api/.env.development.local
+/front_consumo_api/.env.test.local
+/front_consumo_api/.env.production.local
+
+/front_consumo_api/npm-debug.log*
+/front_consumo_api/yarn-debug.log*
+/front_consumo_api/yarn-error.log*

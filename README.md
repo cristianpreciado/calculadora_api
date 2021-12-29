@@ -22,3 +22,10 @@ Api rest que realiza operaciones basicas como la suma, resta, multiplicacion y d
 7. Creación de la interfase **Operation.php**. encargado de definir los metodos que se deben implementar en el servicio.
 8. Creación del comando **OperationCommand.php**. para realizar las operaciones por consola. con el comando de ejemplo `./bin/console operations 5 6 add` para validacion de llamdo por consola tambien disponibles las demas operaciones como resta,multiplicacion y division.
 9. Creación del test **CalculateTest.php**. para realizar las pruebas unitarias del servicio.(comando para hacer uso de las pruebas unitarias: `php ./vendor/bin/phpunit`).
+
+### ver app front llamando la API
+
+1. La aplicaion front esta echa en react:
+   - si se desea ver el front consumiento el api backend se debe ubicar en la carpeta del proyecto y entrar con `cd front_consumo_api/`
+   - se debe ejecutar el comando `npm i`
+   - se debe ejecutar el comando `npm start`
